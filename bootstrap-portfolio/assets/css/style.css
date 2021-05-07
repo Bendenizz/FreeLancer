@@ -1,0 +1,247 @@
+/* GENERAL STYLE */
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #1B8754 ;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+p{
+    font-size: 1rem;
+}
+
+
+/* HOME SECTION STYLE */
+nav.navbar{
+    border-bottom: #1B8754 2px solid;
+}
+
+.navbar .navbar-brand{
+    color:  #1B8754  !important;
+    font-size: 24px;
+}
+
+.bg-dark{
+    background-color: rgba(0, 0, 0, .7) !important;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: white;
+    text-transform: uppercase;
+    transition: color .5s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+    color:  #1B8754;
+}
+
+#headerSection{
+    background-image: url('../img/david.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#headerSection .overlay{
+    background-color: rgba(0, 0, 0, .5);
+}
+
+#headerSection .row{
+    height: 100vh;
+}
+
+.btn-outline-success{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+/* FEATURES SECTION STYLE */
+
+#features .fas,
+.fab{
+    font-size: 2rem;
+}
+
+.feature-top{
+    transition: color .5s ease;
+}
+.feature-top:hover
+{
+    color:  #1B8754;
+    
+}
+
+/* HISTORY SECTION STYLE */
+#ourHistory h2{
+    border-left: 6px solid #1B8754;
+    padding-left: 2rem;
+}
+
+#ourHistory .btn-outline-success{
+    position: absolute;
+}
+
+#ourHistory p{
+    line-height: 2rem;
+}
+
+/* TEAM SECTION STYLE */
+
+#team .card{
+    border: none;
+    opacity: .5;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#team .card:hover{
+    opacity: 1;
+}
+
+#team .fab{
+    font-size: 1.5rem;
+    
+}
+
+/* WHATWEDO SECTION STYLE */
+#whatWeDo{
+    background:linear-gradient(
+        rgba(0,0,0, .7),
+        rgba(0,0,0, .7)
+    ),
+    url('../img/code.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CASESTUDY SECTION STYLE */
+#caseStudy{
+    background-color: #f3f3f3;
+    line-height: 2rem;
+}
+
+.caseArea{
+    background-color: white;
+    margin-top: 2rem;
+    margin-right: -3rem;
+    z-index: 100;
+    padding: 2rem;
+    position: relative;
+    min-height: 27rem;
+    
+}
+
+#caseStudy h3{
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.caseImage{
+    margin-left: -3rem;
+}
+
+/* PORTFOLIO SECTION STYLE */
+#portfolio .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+#portfolio .fas{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.imageContainer{
+    position: relative;
+    cursor: pointer;
+
+}
+
+.imageOverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #1B8754;
+    opacity: 0;
+    transition: .5s ease;
+
+}
+
+.imageContainer:hover .imageOverlay{
+    opacity: .7;
+}
+
+.imageText{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* TESTIMONIALS SECTION STYLE */
+#testimonials{
+    background: linear-gradient(
+        rgba(0,0,0, .5),
+        rgba(0,0,0, .5)
+    ), url(../img/slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.qoute{
+    margin-bottom: 2rem;
+    color: #1B8754;
+}
+
+.carousel-item img{
+    opacity: .1;
+}
+
+
+.carousel-caption{
+    color: white;
+    letter-spacing: .2rem;
+}
+
+/* CONTACT SECTION STYLE */
+#contact{
+    background-color: #f3f3f3;
+}
+
+#contact .input-group-text{
+    width: 2.3rem;
+    color: white;
+    background-color: #1B8754;
+}
+
+/* MAIN FOOTER SECTION STYLE */
+#main-footer{
+    color: white;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.py-5{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
