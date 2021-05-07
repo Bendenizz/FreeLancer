@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(
+        rgba(0,0,0, .5),
+        rgba(0,0,0, .5)
+    ), 
+    url('../img/c-slider1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+/* CONTACT SECTION STYLE */
+#contact{
+    background-color: #f3f3f3;
+}
+
+#contact .input-group-text{
+    width: 2.3rem;
+    color: white;
+    background-color: #1B8754;
+}
+
+
+

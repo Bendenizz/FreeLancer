@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    
+     <!-- Font Awesome CSS-->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+   />
+
+   <!-- GoogleFont CSS -->
+   <link
+     href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+     rel="stylesheet"
+   />
+
+   <!-- Bootstrap CSS -->
+   <link
+     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+     rel="stylesheet"
+     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+     crossorigin="anonymous"
+   />
+
+   <link rel="stylesheet" href="./css/build-your-profile.css">
+
+
+<body>
+<div class="container h-100 py-5">
+  <div class="row align-items-center h-100 pt-4 ">
+    <div class="col-md-10 mx-auto">
+      <div class="card">
+        <h1 class="fw-light text-center py-4"><b>BUILD</b> YOUR PROFILE</h1>
+        <p class="fw-lighter text-muted text-center fs-6 harfarasi">This information will let us know ore about you..</p>
+        <div class="card-header">
+          <ul class="nav nav-pills nav-fill">
+            <li class="nav-item">
+              <a class="nav-link active newColor" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="./account.html">Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-success" href="./address.html">Address</a>
+            </li>
+          </ul>
+        </div>
+        <div class="card-body id="about"">
+
+          <h2 class="card-title fw-light text-center">Let's Start With The Basic Information (With Validation) </h2>
+         
+          <div class="row">
+            <div class="col-md-6">
+              <img src="./assets/img/person.jpeg" alt="..." class="img-fluid rounded-circle d-flex mx-auto py-1" style="opacity: .3;">
+              <div class="mb-3">
+                <label for="formFileMultiple" class="form-label"></label>
+                <input class="form-control d-flex mx-auto" type="file" id="formFileMultiple" multiple style="width: 50%; border: none;">
+              </div>
+
+            </div>
+
+            <div class="col-md-6">
+              <form>
+                <div class="form-group py-4" style="width: 50vh;">
+                  <p class="fw-light mb-1"> First Name <em class="fw-light text-muted">(required)</em></p>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                    <input type="text" class="form-control fw-light" placeholder="Andrew.." aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                  <p class="fw-light mb-1"> Last Name <em class="fw-light text-muted">(required)</em></p>
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                    <input type="text" class="form-control fw-light" placeholder="Smith.." aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                </div>
+              </form>
+            </div>
+
+            <div class="container">
+              <div class="row d-flex" style="margin: auto; width: 100vh;">
+                <div class="col">
+                  <form>
+                    <div class="form-group">
+                      <p class="fw-light mb-1"> E-Mail <em class="fw-light text-muted">(required)</em></p>
+                    <div class="input-group mb-3 d-flex mx-auto">
+                    <span class="input-group-text" id="basic-addon1"><i class="fas fa-envelope-open-text"></i></span>
+                    <input type="email" class="form-control fw-light" placeholder="andrew@creative.tim" aria-label="Username" aria-describedby="basic-addon1">
+                  </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <button class="btn btn-primary me-md-2" type="button">NEXT</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
