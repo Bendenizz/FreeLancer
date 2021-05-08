@@ -9,71 +9,1068 @@
       name="description"
       content="Yunusoğlu İnşaat konut projeleri, nşaat projeleri ve villa projelerinde yılların tecrübesiyle kente kimlik katan yaşam alanları üretmektedir."
     />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./assests/lib/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="./assests/lib/fontawesome/css/all.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assests/lib/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assests/lib/fontawesome/css/all.css" />
 
-    <link rel="stylesheet" href="./assests/css/bootstrap-theme">
-    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/bootstrap-theme" />
+    <link rel="stylesheet" href="./assests/css/style.css" />
   </head>
   <body>
-
     <!--HEADER SECTION-->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <a
+            class="navbar-brand"
+            href="#"
+            title="Yunusoğlu Veranda | İzmir Güzelbahçe Villa Projesi"
+          >
+            <img
+              src="./assests/img/logo.png"
+              alt="Yunusoğlu Veranda | İzmir Güzelbahçe Villa Projesi"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#project"
+                  title="Veranda Villa Projesi"
+                  >Proje</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
+                <a
+                  class="nav-link"
+                  href="#techinal"
+                  title="Veranda Villa Projesi Teknik Özellikler"
+                  >Teknik Özellikler</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a
+                  class="nav-link"
+                  href="#gallery"
+                  title="Veranda Villa Projesi Galeri"
+                  >Galeri</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#plans"
+                  title="Veranda Villa Projesi Plan"
+                  >Plan</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#location"
+                  title="Veranda Villa Projesi Konum"
+                  >Konum</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  title="Veranda Villa Projesi İletişim"
+                  >İletişim</a
+                >
               </li>
             </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
           </div>
         </div>
       </nav>
     </header>
-    <section class="banner"></section>
+
+    <!--BANNER SECTION-->
+    <section class="banner">
+      <div id="main-slider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#main-slider"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#main-slider"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#main-slider"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assests/img/slider/slide1.jpg"
+              class="d-block w-100"
+              alt="Güzelbahçe Villa "
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assests/img/slider/slide2.jpg"
+              class="d-block w-100"
+              alt="Güzelbahçe Villa"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assests/img/slider/slide3.jpg"
+              class="d-block w-100"
+              alt="Güzelbahçe Villa"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#main-slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#main-slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!--FIXED FORM SECTION-->
     <section class="contact-form"></section>
+
+    <!--MAIN SECTION-->
     <main>
-      <section class="project"></section>
-      <section class="techinal"></section>
-      <section class="gallery"></section>
-      <section class="plans"></section>
-      <section class="location"></section>
-      <section class="contact"></section>
+      <section id="project" class="project">
+        <h2 class="section-header">Ege'nin Güneşini Veranda'da Yaşayın</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+          nostrum nobis a omnis, numquam quo, amet earum minima illo aliquam
+          dignissimos vero, qui iure iste laudantium repudiandae hic quam natus.
+        </p>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
+          nostrum nobis a omnis, numquam quo, amet earum minima illo aliquam
+          dignissimos vero, qui iure iste laudantium repudiandae hic quam natus.
+        </p>
+        <iframe
+          width="100%"
+          height="315"
+          src="https://www.youtube.com/embed/k7t5ZefEXl8"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
 
+      <section id="technical" class="technical">
 
+        <h2 class="section-header">Teknik Özellikler</h2>
 
+        <ul>
+          <li>Dış Cephe Mantolama</li>
+          <li>Isı Yalıtımlı Alüminyum Doğrama</li>
+          <li>Merkezi Süpürge Sistemi</li>
+          <li>Parmak İzli Çelik Kapı</li>
+          <li>Yüzme Havuzu</li>
+          <li>Süs Havuzu</li>
+          <li>Akıllı Ev Sistemleri</li>
+          <li>Şömine</li>
+          <li>Lamine Masif Parke</li>
+          <li>Motorlu Alüminyum Panjur</li>
+          <li>Her Villaya Ait 2 Adet Açık Otopark</li>
+          <li>Merkezi Su Arıtma Sistemi</li>
+          <li>24 Saat Özel Güvenlik</li>
+          <li>Hidrofor / Arıtma Sistemi</li>
+          <li>Misafir Otoparkı</li>
+          <li>Kapı Görevlisi</li>
+        </ul>
+      </section>
+      
+      <section id="gallery" class="gallery">
+        <h2 class="section-header">Galeri</h2>
 
+        <ul class="nav nav-pills mb-3" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="pills-villa-outside-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-villa-outside"
+              type="button"
+              role="tab"
+              aria-controls="pills-villa-outside"
+              aria-selected="true"
+            >
+              Villa Dış Mekan
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-apartment-outside-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-apartment-outside"
+              type="button"
+              role="tab"
+              aria-controls="pills-apartment-outside"
+              aria-selected="false"
+            >
+              Apartman Dış Mekan
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-villa-inside-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-villa-inside"
+              type="button"
+              role="tab"
+              aria-controls="pills-villa-inside"
+              aria-selected="false"
+            >
+              Villa İç Mekan
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-apartment-inside-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-apartment-inside"
+              type="button"
+              role="tab"
+              aria-controls="pills-apartment-inside"
+              aria-selected="false"
+            >
+              Apartman İç Mekan
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="pills-social-inside-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#pills-social-inside"
+              type="button"
+              role="tab"
+              aria-controls="pills-social-inside"
+              aria-selected="false"
+            >
+              Sosyal Alanlar
+            </button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="pills-villa-outside"
+            role="tabpanel"
+            aria-labelledby="pills-villa-outside-tab"
+          >
+            <div class="row">
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-01.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-01-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-02.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-02-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-03.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-03-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-04.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-04-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-05.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-05-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-06.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-06-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-07.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-07-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-08.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip4-dis-mekan-08-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip4"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip8-dis-mekan-01.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip8"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip8-dis-mekan-01-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip8"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip8-dis-mekan-02.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip8"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip8-dis-mekan-02-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip8"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip8-dis-mekan-03.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip8"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip8-dis-mekan-03-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip8"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip9-dis-mekan-01.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip9"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip9-dis-mekan-01-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip9"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip9-dis-mekan-02.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip9"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip9-dis-mekan-02-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip9"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip9-dis-mekan-03.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip9"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip9-dis-mekan-03-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip9"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip10-dis-mekan-01.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip10"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip10-dis-mekan-01-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip10"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip10-dis-mekan-02.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip10"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip10-dis-mekan-02-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip10"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/dis-mekan/villa-tip10-dis-mekan-03.jpg"
+                  title="İzmir Güzelbahçe Villa Dış Mekan Tip10"
+                >
+                  <img
+                    src="./assests/img/gallery/dis-mekan/villa-tip10-dis-mekan-03-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa Dış Mekan Tip10"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="pills-apartment-outside"
+            role="tabpanel"
+            aria-labelledby="pills-apartment-outside-tab"
+          >
+          <div class="row">
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-01.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-01-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-02.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-02-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-03.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-03-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-04.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-04-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-05.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-05-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-06.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-06-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-07.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-07-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-08.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-08-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-09.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-00-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-10.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-10-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-11.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-11-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+            <div class="col-6 col-md-4">
+              <a
+                data-fslightbox
+                href="./assests/img/gallery/dis-mekan/apartman-dis-mekan-12.jpg"
+                title="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+              >
+                <img
+                  src="./assests/img/gallery/dis-mekan/apartman-dis-mekan-12-thumb.jpg"
+                  alt="İzmir Güzelbahçe Apartman Dış Mekan Tip4"
+                  class="img-thumbnail"
+                />
+              </a>
+            </div>
+          </div>
+          </div>
+
+          
+          <div
+            class="tab-pane fade"
+            id="pills-villa-inside"
+            role="tabpanel"
+            aria-labelledby="pills-villa-inside-tab"
+          >
+            <div class="row">
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/ic-mekan/villa-ic-mekan-genc-odasi-01.jpg"
+                  title="İzmir Güzelbahçe Villa İç Mekan Genç Odası"
+                >
+                  <img
+                    src="./assests/img/gallery/ic-mekan/villa-ic-mekan-genc-odasi-01-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa İç Mekan Genç Odası"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-01.jpg"
+                  title="İzmir Güzelbahçe Villa İç Mekan Salon"
+                >
+                  <img
+                    src="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-01-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa İç Mekan Salon"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-02.jpg"
+                  title="İzmir Güzelbahçe Villa İç Mekan Salon"
+                >
+                  <img
+                    src="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-02-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa İç Mekan Salon"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-03.jpg"
+                  title="İzmir Güzelbahçe Villa İç Mekan Salon"
+                >
+                  <img
+                    src="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-03-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa İç Mekan Salon"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-04.jpg"
+                  title="İzmir Güzelbahçe Villa İç Mekan Salon"
+                >
+                  <img
+                    src="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-04-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa İç Mekan Salon"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-05.jpg"
+                  title="İzmir Güzelbahçe Villa İç Mekan Salon"
+                >
+                  <img
+                    src="./assests/img/gallery/ic-mekan/villa-ic-mekan-salon-05-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa İç Mekan Salon"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/ic-mekan/villa-ic-mekan-yatak-odasi-01.jpg"
+                  title="İzmir Güzelbahçe Villa İç Mekan Yatak Odası"
+                >
+                  <img
+                    src="./assests/img/gallery/ic-mekan/villa-ic-mekan-yatak-odasi-01-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa İç Mekan Yatak Odası"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+              <div class="col-6 col-md-4">
+                <a
+                  data-fslightbox
+                  href="./assests/img/gallery/ic-mekan/villa-ic-mekan-yatak-odasi-02.jpg"
+                  title="İzmir Güzelbahçe Villa İç Mekan Yatak Odası"
+                >
+                  <img
+                    src="./assests/img/gallery/ic-mekan/villa-ic-mekan-yatak-odasi-02-thumb.jpg"
+                    alt="İzmir Güzelbahçe Villa İç Mekan Yatak Odası"
+                    class="img-thumbnail"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="tab-pane fade"
+            id="pills-apartment-inside"
+            role="tabpanel"
+            aria-labelledby="pills-apartment-inside-tab"
+          >
+          <div class="row">
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-banyo-01.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Banyo"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-banyo-01-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Banyo"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-mutfak-01.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Mutfak"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-mutfak-01-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Mutfak"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-mutfak-02.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Mutfak"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-mutfak-02-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Mutfak"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-01.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Salon"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-01-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Salon"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-02.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Salon"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-02-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Salon"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-03.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Salon"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-03-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Salon"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-04.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Salon"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-04-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Salon"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-05.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Salon"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-05-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Salon"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-06.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Salon"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-salon-06-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Salon"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-yatak-odasi-01.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Yatak Odası"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-yatak-odasi-01-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Yatak Odası"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/ic-mekan/apartman-ic-mekan-yatak-odasi-02.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Yatak Odası"
+            >
+              <img
+                src="./assests/img/gallery/ic-mekan/apartman-ic-mekan-yatak-odasi-02-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Yatak Odası"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>        
+          </div>
+        </div>
+
+          <div
+            class="tab-pane fade"
+            id="pills-social-inside"
+            role="tabpanel"
+            aria-labelledby="pills-social-inside-tab"
+          >
+          <div class="row">
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/sosyal-alanlar/sosyal-alan-01.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanlar"
+            >
+              <img
+                src="./assests/img/gallery/sosyal-alanlar/sosyal-alan-01-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanalar"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/sosyal-alanlar/sosyal-alan-02.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanlar"
+            >
+              <img
+                src="./assests/img/gallery/sosyal-alanlar/sosyal-alan-02-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanalar"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/sosyal-alanlar/sosyal-alan-03.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanlar"
+            >
+              <img
+                src="./assests/img/gallery/sosyal-alanlar/sosyal-alan-03-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanalar"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/sosyal-alanlar/sosyal-alan-04.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanlar"
+            >
+              <img
+                src="./assests/img/gallery/sosyal-alanlar/sosyal-alan-04-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanalar"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/sosyal-alanlar/sosyal-alan-05.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanlar"
+            >
+              <img
+                src="./assests/img/gallery/sosyal-alanlar/sosyal-alan-05-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanalar"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          <div class="col-6 col-md-4">
+            <a
+              data-fslightbox
+              href="./assests/img/gallery/sosyal-alanlar/sosyal-alan-06.jpg"
+              title="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanlar"
+            >
+              <img
+                src="./assests/img/gallery/sosyal-alanlar/sosyal-alan-06-thumb.jpg"
+                alt="İzmir Güzelbahçe Apartman İç Mekan Sosyal Alanalar"
+                class="img-thumbnail"
+              />
+            </a>
+          </div>
+          </div>
+        </div>
+
+        </div>
+        
+      </section>
+      <section id="plans" class="plans">
+        <h2 class="section-header">Kat Planları</h2>
+
+      </section>
+      <section id="location" class="location">
+        <h2 class="section-header">Konum</h2>
+      </section>
+      <section id="contact" class="contact">
+        <h2 class="section-header">İletişim</h2>
+      </section>    
     </main>
+
     <footer></footer>
 
     <script src="./assests/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./assests/lib/fslightbox/fslightbox.js"></script>
   </body>
 </html>
