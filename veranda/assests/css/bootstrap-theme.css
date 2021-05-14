@@ -57,3 +57,18 @@
     width: 100%;
   }
 }
+
+.nav-pills .nav-link.active{
+  background: none;
+  color: var(--color-primary);
+  font-weight: 500;
+  
+}
+
+.nav-pills .nav-link.active::before{
+ content: "[";
+}
+
+.nav-pills .nav-link.active::after{
+  content: "]";
+ }

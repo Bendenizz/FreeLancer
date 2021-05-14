@@ -14,13 +14,56 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+
+    <!-- FAVICON FILES -->
+    <link
+      href="./assests/img/ico/apple-touch-icon-270-precomposed.png"
+      rel="apple-touch-icon"
+      sizes="270x270"
+    />
+    <link
+      href="./assests/img/ico/apple-touch-icon-144-precomposed.png"
+      rel="apple-touch-icon"
+      sizes="144x144"
+    />
+    <link
+      href="./assests/img/ico/apple-touch-icon-114-precomposed.png"
+      rel="apple-touch-icon"
+      sizes="114x114"
+    />
+    <link
+      href="./assests/img/ico/apple-touch-icon-72-precomposed.png"
+      rel="apple-touch-icon"
+      sizes="72x72"
+    />
+    <link
+      href="./assests/img/ico/apple-touch-icon-57-precomposed.png"
+      rel="apple-touch-icon"
+    />
+    <link href="./assests/img/ico/favicon.png" rel="icon" type="image/x-icon" />
+
+    <meta
+      property="og:title"
+      content="Yunusoğlu Veranda | İzmir Güzelbahçe Villa Projesi"
+    />
+    <meta
+      property="og:description"
+      content="Yunusoğlu İnşaat konut projeleri, inşaat projeleri ve villa projelerinde yılların tecrübesiyle kente kimlik katan yaşam alanları üretmektedir."
+    />
+    <meta
+      property="og:image"
+      content="http://websitesi.com/assets/img/izmir-guzelbahce-villa-verand-social-media.jpg"
+    />
+    <meta property="og:url" content="http://websitesi.com" />
+    
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="stylesheet" href="./assests/lib/bootstrap/css/bootstrap.css" />
     <link rel="stylesheet" href="./assests/lib/fontawesome/css/all.css" />
 
     <link rel="stylesheet" href="./assests/css/bootstrap-theme.css" />
     <link rel="stylesheet" href="./assests/css/style.css" />
   </head>
-  <body data-bs-spy="scroll" data-bs-target="#main-navbar">
+  <body data-bs-spy="scroll" data-bs-target="#main-navbar" id="home">
     <header>
       <nav
         id="main-navbar"
@@ -53,6 +96,15 @@
               <li class="nav-item">
                 <a
                   class="nav-link active"
+                  aria-current="page"
+                  href="#home"
+                  title="Veranda Villa Projesi"
+                  > <i class="fas fa-home"></i> 
+                  </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
                   aria-current="page"
                   href="#project"
                   title="Veranda Villa Projesi"
@@ -104,9 +156,13 @@
         </div>
       </nav>
     </header>
+    
     <section class="banner">
+      
       <div id="main-slider" class="carousel slide" data-bs-ride="carousel">
+
         <div class="carousel-inner">
+          
           <div
             class="carousel-item active"
             style="background-image: url('./assests/img/slider/slide1.jpg')"
@@ -143,13 +199,15 @@
       </div>
     </section>
     <section class="contact-form">
+      <div class="slogan" style="text-align: center;"></div><img src="./assests/img/slogan.png" alt="unusoğlu Veranda | İzmir Güzelbahçe Villa Projesi" class="slogan"></div>
+
       <h5>Kampanyamızdan</h5>
       <h2>HEMEN YARARLANIN</h2>
 
       <div class="contact-items">
-        <a href="https://wa.me/905309177077"><i class="fab fa-whatsapp"></i></a>
-        <a href="tel:905309177077"><i class="fas fa-phone"></i></a>
-        <a href="#"><i class="fas fa-comment-dots"></i></a>
+        <a href="https://wa.me/905309177077" data-bs-toggle="tooltip" data-bs-placement="top" title="Whatsapp"><i class="fab fa-whatsapp"></i></a>
+        <a href="tel:905309177077" data-bs-toggle="tooltip" data-bs-placement="top" title="Bizi Arayın"><i class="fas fa-phone"></i></a>
+        <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" title="Online Chat"><i class="fas fa-comment-dots"></i></a>
       </div>
 
       <form action="">
@@ -200,7 +258,7 @@
     </section>
     <main>
       <section id="project" class="project">
-        <h2 class="section-header">Ege'nin Güneşini Veranda'da Yaşayın</h2>
+        <div class="section-header"> <h2> Ege'nin Güneşini Veranda'da Yaşayın </h2></div>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae
           nostrum nobis a omnis, numquam quo, amet earum minima illo aliquam
@@ -211,6 +269,7 @@
           nostrum nobis a omnis, numquam quo, amet earum minima illo aliquam
           dignissimos vero, qui iure iste laudantium repudiandae hic quam natus.
         </p>
+
         <iframe
           width="100%"
           height="315"
@@ -222,7 +281,7 @@
         ></iframe>
       </section>
       <section id="technical" class="technical">
-        <h2 class="section-header">Teknik Özellikler</h2>
+        <div class="section-header"> <h2>Teknik Özellikler</h2></div>
 
         <ul>
           <li>Dış Cephe Mantolama</li>
@@ -244,7 +303,7 @@
         </ul>
       </section>
       <section id="gallery" class="gallery">
-        <h2 class="section-header">Galeri</h2>
+        <div class="section-header"><h2>Galeri</h2></div>
 
         <nav
           class="nav nav-pills justify-content-center flex-column flex-sm-row"
@@ -1040,7 +1099,7 @@
         </div>
       </section>
       <section id="plans" class="plans">
-        <h2 class="section-header">Kat Planları</h2>
+        <div class="section-header"> <h2>Kat Planları</h2></div>
 
         <nav
           class="nav nav-pills justify-content-center flex-column flex-sm-row"
@@ -1292,9 +1351,9 @@
         </div>
       </section>
       <section id="location" class="location">
-        <h2 class="section-header">Konum</h2>
+        <div class="section-header"><h2>Konum</h2></div>
 
-        <div>
+        <div class="map">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.3079370753558!2d26.860878314827275!3d38.3418541871038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDIwJzMwLjciTiAyNsKwNTEnNDcuMCJF!5e0!3m2!1str!2str!4v1620656492318!5m2!1str!2str"
             width="100%"
@@ -1303,12 +1362,21 @@
             allowfullscreen=""
             loading="lazy"
           ></iframe>
+          <div class="map-detail">
+            <ul>
+              <li>Havalimanına 3 km</li>
+              <li>Metroya 50 mt</li>
+              <li>Hastaneye 500 mt</li>
+              <li>AVM ye 300 mt</li>
+              <li>Çarşıya 500 mt</li>
+            </ul>
+          </div>
         </div>
       </section>
       <section id="contact" class="contact">
-        <h2 class="section-header">İletişim</h2>
+        <div class="section-header"><h2>İletişim</h2></div>
 
-        <div class="row">
+        <div class="row g-3">
           <div class="col-12">
             Yunusoğlu Gayrimenkul, Yatırım, İnşaat, Taahhüt, Mimarlık,
             Akaryakıt, Turizm Sanayi ve Tic. A.Ş.
@@ -1317,26 +1385,27 @@
             <i class="fas fa-map-marker-alt"></i> Limanreis Mahallesi,
             Mithatpaşa Cd. No: 733, 35320 Narlıdere/İzmir
           </div>
-          <div class="col-6">
+          <div class="col-4">
             <i class="fas fa-phone"></i>
             <a href="tel:+902322385444">+90 (232) 238 5 444</a>
           </div>
-          <div class="col-6">
+          <div class="col-4">
             <i class="fas fa-mobile-alt"></i>
             <a href="tel:+905309177077">+90 (530) 917 70 77</a>
           </div>
-          <div class="col-6">
+          <div class="col-4">
             <i class="fas fa-fax"></i> +90 (232) 239 38 38
           </div>
-          <div class="col-6">
+          <div class="col-12">
             <i class="fas fa-anchor"></i>
             <a href="https://yunusoglu.com.tr" target="_blank"
               >yunusoglu.com.tr</a
             >
           </div>
-          <div class="col-6">
+          <div class="col-12">
+            <div class="social-media">
             <a href="#">
-              <i class="fab fa-facebook"></i>
+              <i class="fab fa-facebook-f"></i>
             </a>
             <a href="#">
               <i class="fab fa-instagram"></i>
@@ -1345,10 +1414,11 @@
               <i class="fab fa-youtube"></i>
             </a>
             <a href="#">
-              <i class="fab fa-linkedin"></i>
+              <i class="fab fa-linkedin-in"></i>
             </a>
           </div>
         </div>
+      </div>
       </section>
     </main>
     <footer>
@@ -1359,5 +1429,12 @@
 
     <script src="./assests/lib/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="./assests/lib/fslightbox/fslightbox.js"></script>
+
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
   </body>
 </html>
