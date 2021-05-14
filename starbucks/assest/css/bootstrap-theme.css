@@ -1,0 +1,27 @@
+.card{
+    background-image: url('../img/starbucks-wallpaper-green.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #fff;
+    background-color: #017043 !important;
+    border-radius: 1rem;
+}
+
+.nav-link{
+    color: black;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
+
+.btn-primary{
+    color: #017045;
+    background-color: #fff;
+    border-color: #fff;
+}

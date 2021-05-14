@@ -1,0 +1,33 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../img/starbucks-wallpaper-greenhuge.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+.social-media li{
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 3rem;
+}
+
+.social-media a{
+    color: #373737;
+    font-size: 2rem;
+    padding-right: 5rem;
+}
+
+ .fab{
+    padding-left: 3rem;
+}
+span{
+    font-weight: 900;
+    font-size: 3rem;
+}
